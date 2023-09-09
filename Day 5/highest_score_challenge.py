@@ -1,4 +1,4 @@
-## Day 5 - Challenge 1: Average Height Challenge
+## Day 5 - Challenge 2: Average Height Challenge
 
 # Instructions
 #

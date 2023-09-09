@@ -17,13 +17,13 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 #########################################################
 # new_password = []
 
-# for n in range(0, nr_letters):
+# for n in range(1, nr_letters + 1):
 #    new_password.append(letters[random.randint(0,25)])
 
-# for n in range(0, nr_symbols):
+# for n in range(1, nr_symbols + 1):
 #    new_password.append(symbols[random.randint(0,8)])
     
-# for n in range(0, nr_numbers):
+# for n in range(1, nr_numbers + 1):
 #    new_password.append(numbers[random.randint(0,9)])
 
 # new_password = ''.join(new_password)
@@ -34,9 +34,6 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 
 new_password = []
-new_letters = []
-new_symbols = []
-new_numbers = []
 
 for n in range(0, nr_letters):
     new_password.append(letters[random.randint(0,25)])

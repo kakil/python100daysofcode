@@ -18,4 +18,3 @@ print(str(first_digit) + " + " + str(second_digit) + " = " + str(first_digit+sec
 
 
 
-
